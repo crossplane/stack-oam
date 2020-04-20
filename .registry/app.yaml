@@ -1,0 +1,27 @@
+
+title: "OAM Stack"
+readme: ""
+overview: "This stack provisions OAM workload and trait definitions to be used in components."
+overviewShort: "Quickly register common OAM workload and trait definitions."
+maintainers:
+  - name: "Dan Mangum"
+    email: "dan@upbound.io"
+owners:
+  - name: "Dan Mangum"
+    email: "dan@upbound.io"
+company: "Crossplane"
+category: "Stack"
+packageType: "Stack"
+keywords:
+  - "oam"
+  - "definitions"
+  - "workloads"
+  - "traits"
+website: "https://crossplane.io"
+source: "https://github.com/crossplane/stack-oam"
+permissionScope: Cluster
+dependsOn:
+  - crd: 'workloaddefinitions.core.oam.dev/v1alpha2'
+  - crd: 'traitdefinitions.core.oam.dev/v1alpha2'
+# License SPDX name: https://spdx.org/licenses/
+license: Apache-2.0
