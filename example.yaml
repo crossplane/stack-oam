@@ -1,0 +1,4 @@
+apiVersion: oam.stacks.crossplane.io/v1alpha1
+kind: Definitions
+metadata:
+  name: oam-defs
