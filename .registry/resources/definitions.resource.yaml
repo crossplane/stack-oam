@@ -1,0 +1,9 @@
+ 
+id: definitions
+title: OAM Stack
+titlePlural: OAM Stacks
+category: Stack
+overviewShort: |
+  Quickly register common OAM workload and trait definitions.
+overview: |
+  This stack provisions OAM workload and trait definitions to be used in components.
